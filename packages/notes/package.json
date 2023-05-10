@@ -1,0 +1,8 @@
+{
+    "name": "@day-day-up/notes",
+    "private": true,
+    "main": "index.ts",
+    "scripts": {
+        "build": "rollup -c"
+    }
+}

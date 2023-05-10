@@ -1,0 +1,7 @@
+node_modules
+play
+dist
+.vscode
+
+
+packages/code/React/template

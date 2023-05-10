@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "paths": {
+            "@day-day-up/*": ["./packages/*"]
+        },
+        "jsx": "preserve"
+    },
+    "include": ["docs"],
+    "exclude": ["node_modules", "**/*.md"]
+}

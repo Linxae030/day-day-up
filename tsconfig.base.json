@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es5",
+        "module": "esnext",
+        "baseUrl": ".",
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "allowJs": false,
+        "strict": true,
+        "noUnusedLocals": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "removeComments": false,
+        "rootDir": ".",
+        "types": ["node"],
+        "paths": {
+            "@day-day-up/*": ["packages/*"]
+        }
+    }
+}
